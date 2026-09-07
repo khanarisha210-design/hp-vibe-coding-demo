@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Expense Tracker</h1>
+
+    <input id="expenseName" type="text" placeholder="Expense name">
+    <input id="expenseAmount" type="number" placeholder="Amount">
+
+    <button onclick="addExpense()">Add Expense</button>
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+
+    <ul id="expenseList"></ul>
+
+    <h2>Total: ₹<span id="total">0</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
